@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+html {
+    height: 100%;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100%;
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#phone {
+    background: hslhsl(217, 54%, 11%);
+    height: 41rem;
+    width: 24rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+#card {
+    background-color: hsl(216, 50%, 16%);
+    height: 37.5rem;
+    width: 21.875rem;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-top: 1rem;
+}
+
+.container .avatar-equi {
+    position: relative;
+}
+
+.container .avatar-equi img {
+    height: 18.75rem;
+    width: 18.75rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+}
+.container .icon-view {
+    position: absolute;
+    background-color: hsl(178, 100%, 50%);
+    height: 18.75rem;
+    width: 18.75rem;
+    top: 0;
+    z-index: 100;
+    opacity: 0;
+    border-radius: 0.5rem;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.container .icon-view:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.container .icon-view img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .icon-view img {
+    width: 50px;
+}
+
+.container .icon-view img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.hero-section a {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.hero-section a:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.hero-section p {
+    font-size: 1.1rem;
+    margin-top: 0.6rem;
+    margin-bottom: 1.375rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+}
+
+.eth_days-left {
+    display: flex;
+    margin-bottom: 1.5rem;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+
+.eth {
+    display: flex;
+    width: 5.75rem;
+    color: hsl(178, 100%, 50%);
+    font-weight: 700;
+}
+
+.eth img {
+    margin-right: 0.5rem;
+}
+
+.days-left {
+    display: flex;
+    width: 5.75rem;
+}
+
+.days-left img {
+    margin-right: 0.5rem;
+}
+
+.bottom {
+    display: flex;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+
+.bottom img {
+    height: 2rem;
+    margin-right: 0.8rem;
+    border: 1.5px solid white;
+    border-radius: 1rem;
+}
+
+.bottom span {
+    color: hsl(215, 51%, 70%);
+    margin-right: 0.3rem;
+}
+
+.bottom a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.bottom a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+@media only screen and (max-width: 375px) {
+    #phone {
+        margin: 0 2rem;
+    }
+}
